@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevLinks - Rodrigo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/120" alt="Foto de perfil" class="avatar">
+
+    <h1>@seuusuario</h1>
+    <p>Estudante de programação 🚀</p>
+
+    <ul>
+      <li><a href="#">Meu GitHub</a></li>
+      <li><a href="#">Meu LinkedIn</a></li>
+      <li><a href="#">Meu Portfólio</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+
+    <footer>
+      <span>Projeto Discover - Rocketseat</span>
+    </footer>
+  </div>
+
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #8257e5, #121214);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  width: 320px;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 3px solid #8257e5;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #c4c4cc;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  display: block;
+  background: #8257e5;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: background 0.3s;
+}
+
+ul li a:hover {
+  background: #9466ff;
+}
+
+footer {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #c4c4cc;
+}
